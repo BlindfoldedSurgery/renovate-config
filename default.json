@@ -1,0 +1,56 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "prHourlyLimit": 0,
+  "automergeStrategy": "rebase",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "poetry",
+        "pub"
+      ],
+      "prConcurrentLimit": 1
+    },
+    {
+      "matchManagers": [
+        "poetry",
+        "pub"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "pin",
+        "lockFileMaintenance"
+      ],
+      "separateMinorPatch": true,
+      "automerge": true
+    },
+    {
+      "groupName": "requests",
+      "matchPackageNames": [
+        "requests",
+        "types-requests"
+      ],
+      "automerge": true
+    },
+    {
+      "groupName": "pillow",
+      "matchPackageNames": [
+        "Pillow",
+        "types-Pillow"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "sentry-sdk"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "lockFileMaintenance"
+      ],
+      "automerge": true
+    }
+  ]
+}
