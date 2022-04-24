@@ -1,0 +1,46 @@
+{
+  "packageRules": [
+    {
+      "groupName": "BLoC",
+      "matchManagers": [
+        "pub"
+      ],
+      "matchPackageNames": [
+        "bloc",
+        "flutter_bloc",
+        "bloc_test"
+      ]
+    },
+    {
+      "groupName": "JSON serialization",
+      "matchManagers": [
+        "pub"
+      ],
+      "matchPackageNames": [
+        "json_serializable",
+        "json_annotation"
+      ]
+    },
+    {
+      "groupName": "injectable",
+      "matchManagers": [
+        "pub"
+      ],
+      "matchPackageNames": [
+        "injectable",
+        "injectable_generator"
+      ]
+    },
+    {
+      "groupName": "sqflite",
+      "matchManagers": [
+        "pub"
+      ],
+      "matchPackageNames": [
+        "sqflite",
+        "sqflite_common",
+        "sqflite_common_ffi"
+      ]
+    }
+  ]
+}
