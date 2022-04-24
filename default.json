@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    "github>openalcoholics/renovate-config:pub"
   ],
   "prHourlyLimit": 0,
   "automergeStrategy": "rebase",
