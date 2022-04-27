@@ -6,6 +6,9 @@
   "prHourlyLimit": 0,
   "stabilityDays": 2,
   "automergeStrategy": "rebase",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchManagers": [
