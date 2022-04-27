@@ -7,7 +7,10 @@
   "stabilityDays": 2,
   "automergeStrategy": "rebase",
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "schedule": [
+      "on weekends"
+    ]
   },
   "packageRules": [
     {
