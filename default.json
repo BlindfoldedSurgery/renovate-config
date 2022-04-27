@@ -4,6 +4,7 @@
     "github>openalcoholics/renovate-config:pub"
   ],
   "prHourlyLimit": 0,
+  "stabilityDays": 2,
   "automergeStrategy": "rebase",
   "packageRules": [
     {
