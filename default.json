@@ -1,7 +1,8 @@
 {
   "extends": [
     "config:base",
-    "github>openalcoholics/renovate-config:pub"
+    "github>openalcoholics/renovate-config:pub",
+    "github>openalcoholics/renovate-config:java"
   ],
   "prHourlyLimit": 0,
   "stabilityDays": 2,

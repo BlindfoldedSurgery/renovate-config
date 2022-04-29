@@ -1,0 +1,19 @@
+{
+  "packageRules": [
+    {
+      "matchManagers": [
+        "gradle",
+        "maven"
+      ],
+      "matchPackageNames": [
+        "spotless"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "lockFileMaintenance"
+      ],
+      "automerge": true
+    }
+  ]
+}
