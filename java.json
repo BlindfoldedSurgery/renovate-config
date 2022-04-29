@@ -14,6 +14,18 @@
         "lockFileMaintenance"
       ],
       "automerge": true
+    },
+    {
+      "matchManagers": [
+        "gradle"
+      ],
+      "matchPackageNames": [
+        "gradle"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true
     }
   ]
 }
