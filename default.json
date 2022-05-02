@@ -27,9 +27,7 @@
         "pub"
       ],
       "matchUpdateTypes": [
-        "patch",
-        "pin",
-        "lockFileMaintenance"
+        "patch"
       ],
       "separateMinorPatch": true,
       "automerge": true
