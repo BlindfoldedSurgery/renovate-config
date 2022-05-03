@@ -56,7 +56,8 @@
         "minor",
         "patch"
       ],
-      "automerge": true
+      "automerge": true,
+      "stabilityDays": 0
     }
   ]
 }
