@@ -38,7 +38,8 @@
         "requests",
         "types-requests"
       ],
-      "automerge": true
+      "automerge": true,
+      "stabilityDays": 0
     },
     {
       "groupName": "pillow",
@@ -57,7 +58,8 @@
         "pin",
         "lockFileMaintenance"
       ],
-      "automerge": true
+      "automerge": true,
+      "stabilityDays": 0
     }
   ]
 }
