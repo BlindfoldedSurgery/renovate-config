@@ -54,12 +54,9 @@
       ],
       "matchUpdateTypes": [
         "minor",
-        "patch",
-        "pin",
-        "lockFileMaintenance"
+        "patch"
       ],
-      "automerge": true,
-      "stabilityDays": 0
+      "automerge": true
     }
   ]
 }
