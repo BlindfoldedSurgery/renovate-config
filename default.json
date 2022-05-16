@@ -6,7 +6,6 @@
   ],
   "prHourlyLimit": 0,
   "stabilityDays": 1,
-  "prCreation": "not-pending",
   "automergeStrategy": "rebase",
   "lockFileMaintenance": {
     "enabled": true,
