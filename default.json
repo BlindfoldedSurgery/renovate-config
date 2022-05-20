@@ -11,7 +11,7 @@
     "enabled": true,
     "schedule": [
       "every weekend",
-      "on friday
+      "on friday"
     ]
   },
   "packageRules": [
