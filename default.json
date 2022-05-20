@@ -10,7 +10,8 @@
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
-      "every weekend"
+      "every weekend",
+      "on friday
     ]
   },
   "packageRules": [
