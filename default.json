@@ -5,7 +5,6 @@
     "github>openalcoholics/renovate-config:java"
   ],
   "prHourlyLimit": 0,
-  "stabilityDays": 1,
   "automergeStrategy": "rebase",
   "lockFileMaintenance": {
     "enabled": true,
