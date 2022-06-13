@@ -6,7 +6,7 @@
         "maven"
       ],
       "matchPackageNames": [
-        "spotless"
+        "com.diffplug.spotless"
       ],
       "matchUpdateTypes": [
         "minor",
