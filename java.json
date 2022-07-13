@@ -6,7 +6,8 @@
         "maven"
       ],
       "matchPackageNames": [
-        "com.diffplug.spotless"
+        "com.diffplug.spotless",
+        "io.sentry:sentry"
       ],
       "matchUpdateTypes": [
         "minor",
@@ -26,16 +27,6 @@
         "patch"
       ],
       "automerge": true
-    },
-    {
-      "description": "Automerge all Spotless updates (if the pipeline succeeds, they'll be fine)",
-      "matchManagers": [
-        "gradle"
-      ],
-      "matchPackageNames": [
-        "spotless"
-      ],
-      "automerge": true
-    },
+    }
   ]
 }
