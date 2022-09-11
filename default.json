@@ -56,5 +56,16 @@
       ],
       "automerge": true
     }
+  ],
+  "regexManagers": [
+    {
+      "datasourceTemplate": "pypi",
+      "fileMatch": [
+        "^\\.github/workflows/.+\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "pip install (?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+      ]
+    }
   ]
 }
