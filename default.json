@@ -68,7 +68,7 @@
       ]
     },
     {
-      "matchFiles": [
+      "fileMatch": [
         "Dockerfile"
       ],
       "matchStrings": [
