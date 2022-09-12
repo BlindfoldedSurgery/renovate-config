@@ -66,6 +66,14 @@
       "matchStrings": [
         "pip install (?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ]
+    },
+    {
+      "matchFiles": [
+        "Dockerfile"
+      ],
+      "matchStrings": [
+        "ENV (?<depName>[^_]+)_(?<datasource>[^_]+)_VERSION=(?<currentValue>[^\n]+)\n"
+      ]
     }
   ]
 }
