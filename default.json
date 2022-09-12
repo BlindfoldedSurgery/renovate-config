@@ -61,18 +61,11 @@
     {
       "datasourceTemplate": "pypi",
       "fileMatch": [
-        "^\\.github/workflows/.+\\.ya?ml$"
-      ],
-      "matchStrings": [
-        "pip install (?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)"
-      ]
-    },
-    {
-      "fileMatch": [
+        "^\\.github/workflows/.+\\.ya?ml$",
         "Dockerfile"
       ],
       "matchStrings": [
-        "ENV (?<depName>[^_]+)_(?<datasource>[^_]+)_VERSION=(?<currentValue>[^\n]+)\n"
+        "pip install (?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ]
     }
   ]
