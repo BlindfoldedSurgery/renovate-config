@@ -61,8 +61,8 @@
       "matchPackageNames": [
         "openjdk"
       ],
-      "matchManagers": [
-        "Dockerfile"
+      "matchDatasources": [
+        "docker"
       ],
       "matchCurrentVersion": "/(11|17)/",
       "allowedVersions": "/(11|17)/"
@@ -72,8 +72,8 @@
       "matchPackageNames": [
         "openjdk"
       ],
-      "matchManagers": [
-        "Dockerfile"
+      "matchDatasources": [
+        "docker"
       ],
       "allowedVersions": "<=19"
     }
