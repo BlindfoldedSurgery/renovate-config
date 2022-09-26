@@ -55,6 +55,27 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "description": "Only allow LTS Java versions (next will be 21)",
+      "matchPackageNames": [
+        "openjdk"
+      ],
+      "matchManagers": [
+        "Dockerfile"
+      ],
+      "matchCurrentVersion": "/(11|17)/",
+      "allowedVersions": "/(11|17)/"
+    },
+    {
+      "description": "Only allow stable Java versions",
+      "matchPackageNames": [
+        "openjdk"
+      ],
+      "matchManagers": [
+        "Dockerfile"
+      ],
+      "allowedVersions": "<=19"
     }
   ],
   "regexManagers": [
