@@ -32,6 +32,15 @@
       "automerge": true
     },
     {
+      "matchManagers": [
+        "poetry"
+      ],
+      "matchDepTypes": [
+        "dev-dependencies"
+      ],
+      "automerge": true
+    },
+    {
       "groupName": "requests",
       "matchPackageNames": [
         "requests",
