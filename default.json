@@ -9,7 +9,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
-      "between 17:00 and 20:00 on friday"
+      "after 17:00 on friday"
     ]
   },
   "packageRules": [
