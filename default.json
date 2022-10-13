@@ -68,7 +68,7 @@
     {
       "description": "Only allow LTS Java versions (next will be 21)",
       "matchPackageNames": [
-        "openjdk"
+        "eclipse-temurin"
       ],
       "matchDatasources": [
         "docker"
@@ -79,7 +79,7 @@
     {
       "description": "Only allow stable Java versions",
       "matchPackageNames": [
-        "openjdk"
+        "eclipse-temurin"
       ],
       "matchDatasources": [
         "docker"
