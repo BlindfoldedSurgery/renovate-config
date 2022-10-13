@@ -77,17 +77,6 @@
       "enabled": false
     },
     {
-      "description": "Only allow LTS Java versions (next will be 21)",
-      "matchPackageNames": [
-        "openjdk"
-      ],
-      "matchDatasources": [
-        "docker"
-      ],
-      "matchCurrentVersion": "11",
-      "allowedVersions": "17"
-    },
-    {
       "description": "Only allow stable Java versions",
       "matchPackageNames": [
         "openjdk"
