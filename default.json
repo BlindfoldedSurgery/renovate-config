@@ -10,7 +10,8 @@
     "enabled": true,
     "schedule": [
       "after 17:00 on friday"
-    ]
+    ],
+    "automerge": true
   },
   "packageRules": [
     {
