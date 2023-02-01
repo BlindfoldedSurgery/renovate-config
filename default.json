@@ -86,15 +86,6 @@
         "docker"
       ],
       "allowedVersions": "<=19"
-    },
-    {
-      "matchManagers": [
-        "poetry"
-      ],
-      "matchDepTypes": [
-        "dev-dependencies"
-      ],
-      "automerge": true
     }
   ],
   "regexManagers": [
