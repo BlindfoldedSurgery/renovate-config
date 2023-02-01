@@ -37,7 +37,8 @@
         "poetry"
       ],
       "matchDepTypes": [
-        "dev-dependencies"
+        "dev-dependencies",
+        "dev"
       ],
       "automerge": true
     },
