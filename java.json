@@ -27,6 +27,15 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchManagers": [
+        "poetry"
+      ],
+      "matchDepTypes": [
+        "dev-dependencies"
+      ],
+      "automerge": true
     }
   ]
 }
