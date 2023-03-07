@@ -38,6 +38,7 @@
       ],
       "matchDepTypes": [
         "dev-dependencies",
+        "dev_dependencies",
         "dev"
       ],
       "automerge": true
