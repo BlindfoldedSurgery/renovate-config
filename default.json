@@ -88,6 +88,17 @@
         "docker"
       ],
       "allowedVersions": "<=19"
+    },
+    {
+      "description": "Group terraform asdf and terraform-internal version",
+      "matchPackageNames": [
+        "hashicorp/terraform",
+        "terraform"
+      ],
+      "matchManagers": [
+        "asdf",
+        "terraform"
+      ]
     }
   ],
   "regexManagers": [
