@@ -90,6 +90,7 @@
       "allowedVersions": "<=19"
     },
     {
+      "groupName": "Terraform",
       "description": "Group terraform asdf and terraform-internal version",
       "matchPackageNames": [
         "hashicorp/terraform",
