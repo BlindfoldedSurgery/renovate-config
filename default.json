@@ -1,9 +1,11 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
     "github>openalcoholics/renovate-config:pub",
     "github>openalcoholics/renovate-config:java"
   ],
+  "rangeStrategy": "replace",
   "prHourlyLimit": 0,
   "automergeStrategy": "rebase",
   "lockFileMaintenance": {
