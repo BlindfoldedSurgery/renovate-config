@@ -71,6 +71,12 @@
       "automerge": true
     },
     {
+      "matchPackageNames": [
+        "certifi"
+      ],
+      "automerge": true
+    },
+    {
       "description": "Only allow LTS Java versions (next will be 21)",
       "matchPackageNames": [
         "eclipse-temurin"
