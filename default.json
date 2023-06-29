@@ -98,8 +98,23 @@
       "allowedVersions": "<=19"
     },
     {
+      "groupName": "Terraform Patch",
+      "description": "Group and automerge terraform asdf and terraform-internal patch updates",
+      "matchPackageNames": [
+        "hashicorp/terraform",
+        "terraform"
+      ],
+      "matchManagers": [
+        "asdf",
+        "github-actions",
+        "terraform"
+      ],
+      "matchUpdateTypes": "patch",
+      "automerge": true
+    },
+    {
       "groupName": "Terraform",
-      "description": "Group terraform asdf and terraform-internal version",
+      "description": "Group terraform asdf and terraform-internal updates",
       "matchPackageNames": [
         "hashicorp/terraform",
         "terraform"
