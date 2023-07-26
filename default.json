@@ -2,8 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    "github>openalcoholics/renovate-config:pub",
-    "github>openalcoholics/renovate-config:java"
+    "github>blindfoldedsurgery/renovate-config:pub",
+    "github>blindfoldedsurgery/renovate-config:java"
   ],
   "rangeStrategy": "replace",
   "prHourlyLimit": 0,
