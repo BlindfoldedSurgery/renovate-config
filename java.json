@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "ignorePresets": ["workarounds:javaLTSVersions"],
+  "ignorePresets": [
+    "workarounds:javaLTSVersions"
+  ],
   "packageRules": [
     {
       "matchCategories": [
@@ -11,6 +13,17 @@
       ],
       "matchUpdateTypes": [
         "minor"
+      ],
+      "automerge": true
+    },
+    {
+      "description": "Automerge test dependencies (Renovate doesn't classify them as such)",
+      "matchCategories": [
+        "java"
+      ],
+      "matchDepNames": [
+        "com.diffplug.spotless",
+        "io.gitlab.arturbosch.detekt"
       ],
       "automerge": true
     },
