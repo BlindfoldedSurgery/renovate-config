@@ -21,7 +21,6 @@
     {
       "matchUpdateTypes": [
         "patch",
-        "lockFileMaintenance"
       ],
       "automerge": true
     },
