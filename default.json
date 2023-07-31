@@ -20,7 +20,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "patch",
+        "patch"
       ],
       "automerge": true
     },
