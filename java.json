@@ -5,7 +5,7 @@
       "matchCategories": [
         "java"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "io.sentry:sentry"
       ],
       "matchUpdateTypes": [
@@ -17,7 +17,7 @@
       "matchManagers": [
         "gradle-wrapper"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "gradle"
       ],
       "matchUpdateTypes": [
@@ -27,7 +27,7 @@
     },
     {
       "description": "Only allow LTS Java versions (next will be 21)",
-      "matchPackageNames": [
+      "matchDepNames": [
         "eclipse-temurin"
       ],
       "matchDatasources": [
@@ -38,7 +38,7 @@
     },
     {
       "description": "Only allow stable Java versions",
-      "matchPackageNames": [
+      "matchDepNames": [
         "eclipse-temurin"
       ],
       "matchDatasources": [

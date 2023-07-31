@@ -4,7 +4,7 @@
 {
       "groupName": "requests",
       "matchCategories": ["python"],
-      "matchPackageNames": [
+      "matchDepNames": [
         "requests",
         "types-requests"
       ],
@@ -13,14 +13,14 @@
     {
       "groupName": "Pillow",
       "matchCategories": ["python"],
-      "matchPackageNames": [
+      "matchDepNames": [
         "Pillow",
         "types-Pillow"
       ]
     },
     {
       "matchCategories": ["python"],
-      "matchPackageNames": [
+      "matchDepNames": [
         "sentry-sdk"
       ],
       "matchUpdateTypes": [
@@ -31,7 +31,7 @@
     },
     {
       "matchCategories": ["python"],
-      "matchPackageNames": [
+      "matchDepNames": [
         "certifi"
       ],
       "automerge": true

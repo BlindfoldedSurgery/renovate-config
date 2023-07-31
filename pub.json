@@ -6,7 +6,7 @@
       "matchCategories": [
         "dart"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "bloc",
         "flutter_bloc",
         "bloc_test"
@@ -17,7 +17,7 @@
       "matchCategories": [
         "dart"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "json_serializable",
         "json_annotation"
       ]
@@ -27,7 +27,7 @@
       "matchCategories": [
         "dart"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "injectable",
         "injectable_generator"
       ]
@@ -37,7 +37,7 @@
       "matchCategories": [
         "dart"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "sqflite",
         "sqflite_common",
         "sqflite_common_ffi"
