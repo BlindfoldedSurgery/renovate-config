@@ -1,9 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-"packageRules": [
-{
+  "packageRules": [
+    {
       "groupName": "requests",
-      "matchCategories": ["python"],
+      "matchCategories": [
+        "python"
+      ],
       "matchDepNames": [
         "requests",
         "types-requests"
@@ -12,14 +14,18 @@
     },
     {
       "groupName": "Pillow",
-      "matchCategories": ["python"],
+      "matchCategories": [
+        "python"
+      ],
       "matchDepNames": [
         "Pillow",
         "types-Pillow"
       ]
     },
     {
-      "matchCategories": ["python"],
+      "matchCategories": [
+        "python"
+      ],
       "matchDepNames": [
         "sentry-sdk"
       ],
@@ -30,11 +36,13 @@
       "automerge": true
     },
     {
-      "matchCategories": ["python"],
+      "matchCategories": [
+        "python"
+      ],
       "matchDepNames": [
         "certifi"
       ],
       "automerge": true
     }
-]
+  ]
 }
