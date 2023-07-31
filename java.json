@@ -2,18 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchManagers": [
-        "gradle",
-        "maven"
+      "matchCategories": [
+        "java"
       ],
       "matchPackageNames": [
-        "com.diffplug.spotless",
         "io.sentry:sentry"
       ],
       "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "lockFileMaintenance"
+        "minor"
       ],
       "automerge": true
     },
@@ -28,6 +24,27 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "description": "Only allow LTS Java versions (next will be 21)",
+      "matchPackageNames": [
+        "eclipse-temurin"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchCurrentVersion": "17",
+      "enabled": false
+    },
+    {
+      "description": "Only allow stable Java versions",
+      "matchPackageNames": [
+        "eclipse-temurin"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "allowedVersions": "<=20"
     }
   ]
 }

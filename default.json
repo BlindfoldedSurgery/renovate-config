@@ -3,11 +3,13 @@
   "extends": [
     "config:recommended",
     "github>blindfoldedsurgery/renovate-config:pub",
-    "github>blindfoldedsurgery/renovate-config:java"
+    "github>blindfoldedsurgery/renovate-config:java",
+    "github>blindfoldedsurgery/renovate-config:python"
   ],
   "rangeStrategy": "replace",
   "prHourlyLimit": 0,
   "automergeStrategy": "rebase",
+  "separateMinorPatch": true,
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
@@ -17,99 +19,18 @@
   },
   "packageRules": [
     {
-      "matchManagers": [
-        "poetry",
-        "pub"
-      ],
-      "prConcurrentLimit": 1
-    },
-    {
-      "matchManagers": [
-        "poetry",
-        "pub"
-      ],
       "matchUpdateTypes": [
-        "patch"
+        "patch",
+        "lockFileMaintenance"
       ],
-      "separateMinorPatch": true,
       "automerge": true
     },
     {
-      "matchManagers": [
-        "poetry"
-      ],
       "matchDepTypes": [
         "dev-dependencies",
         "dev_dependencies",
         "dev"
       ],
-      "automerge": true
-    },
-    {
-      "groupName": "requests",
-      "matchPackageNames": [
-        "requests",
-        "types-requests"
-      ],
-      "automerge": true
-    },
-    {
-      "groupName": "pillow",
-      "matchPackageNames": [
-        "Pillow",
-        "types-Pillow"
-      ]
-    },
-    {
-      "matchPackageNames": [
-        "sentry-sdk"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    },
-    {
-      "matchPackageNames": [
-        "certifi"
-      ],
-      "automerge": true
-    },
-    {
-      "description": "Only allow LTS Java versions (next will be 21)",
-      "matchPackageNames": [
-        "eclipse-temurin"
-      ],
-      "matchDatasources": [
-        "docker"
-      ],
-      "matchCurrentVersion": "17",
-      "enabled": false
-    },
-    {
-      "description": "Only allow stable Java versions",
-      "matchPackageNames": [
-        "eclipse-temurin"
-      ],
-      "matchDatasources": [
-        "docker"
-      ],
-      "allowedVersions": "<=19"
-    },
-    {
-      "groupName": "Terraform Patch",
-      "description": "Group and automerge terraform asdf and terraform-internal patch updates",
-      "matchPackageNames": [
-        "hashicorp/terraform",
-        "terraform"
-      ],
-      "matchManagers": [
-        "asdf",
-        "github-actions",
-        "terraform"
-      ],
-      "matchUpdateTypes": "patch",
       "automerge": true
     },
     {

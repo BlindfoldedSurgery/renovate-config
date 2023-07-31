@@ -3,8 +3,8 @@
   "packageRules": [
     {
       "groupName": "BLoC",
-      "matchManagers": [
-        "pub"
+      "matchCategories": [
+        "dart"
       ],
       "matchPackageNames": [
         "bloc",
@@ -14,8 +14,8 @@
     },
     {
       "groupName": "JSON serialization",
-      "matchManagers": [
-        "pub"
+      "matchCategories": [
+        "dart"
       ],
       "matchPackageNames": [
         "json_serializable",
@@ -24,8 +24,8 @@
     },
     {
       "groupName": "injectable",
-      "matchManagers": [
-        "pub"
+      "matchCategories": [
+        "dart"
       ],
       "matchPackageNames": [
         "injectable",
@@ -34,23 +34,14 @@
     },
     {
       "groupName": "sqflite",
-      "matchManagers": [
-        "pub"
+      "matchCategories": [
+        "dart"
       ],
       "matchPackageNames": [
         "sqflite",
         "sqflite_common",
         "sqflite_common_ffi"
       ]
-    },
-    {
-      "matchManagers": [
-        "pub"
-      ],
-      "matchUpdateTypes": [
-        "patch"
-      ],
-      "automerge": true
     }
   ]
 }
