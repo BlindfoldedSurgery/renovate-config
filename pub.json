@@ -42,6 +42,31 @@
         "sqflite_common",
         "sqflite_common_ffi"
       ]
+    },
+    {
+      "groupName": "Dart",
+      "matchManagers": [
+        "dockerfile",
+        "asdf"
+      ],
+      "matchDepNames": [
+        "dart"
+      ],
+      "separateMinorPatch": true
+    },
+    {
+      "matchManagers": [
+        "dockerfile",
+        "asdf"
+      ],
+      "matchDepNames": [
+        "dart"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ]
 }
