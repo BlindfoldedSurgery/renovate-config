@@ -44,6 +44,15 @@
         "github-actions",
         "terraform"
       ]
+    },
+    {
+      "matchCategories": [
+        "docker"
+      ],
+      "matchDepNames": [
+        "swaggerapi/swagger-ui"
+      ],
+      "automerge": true
     }
   ],
   "regexManagers": [

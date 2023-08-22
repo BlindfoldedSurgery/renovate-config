@@ -40,7 +40,8 @@
         "python"
       ],
       "matchDepNames": [
-        "certifi"
+        "certifi",
+        "poetry"
       ],
       "automerge": true
     }
