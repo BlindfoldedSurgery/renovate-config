@@ -53,6 +53,11 @@
         "swaggerapi/swagger-ui"
       ],
       "automerge": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackagePrefixes": ["docker/"],
+      "groupName": "GitHub Actions by Docker"
     }
   ],
   "regexManagers": [
