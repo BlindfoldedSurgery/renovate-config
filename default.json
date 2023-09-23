@@ -88,6 +88,14 @@
       "matchStrings": [
         "renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\sENV [^\\s]+_VERSION=(?<currentValue>.+)\\s"
       ]
+    },
+    {
+      "fileMatch": [
+        "values.yaml"
+      ],
+      "matchStrings": [
+        "renovate: datasource=(?<datasource>.+?)\\s.+?: (?<packageName>[^:]+):(?<currentValue>.+)\\s"
+      ]
     }
   ]
 }
