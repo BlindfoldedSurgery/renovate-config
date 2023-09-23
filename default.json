@@ -55,12 +55,18 @@
       "automerge": true
     },
     {
-      "matchManagers": ["github-actions"],
-      "matchPackagePrefixes": ["docker/"],
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackagePrefixes": [
+        "docker/"
+      ],
       "groupName": "GitHub Actions by Docker"
     },
     {
-      "matchDepNames": ["postgres"],
+      "matchDepNames": [
+        "postgres"
+      ],
       "allowedVersions": "<= 15"
     }
   ],
@@ -73,6 +79,14 @@
       ],
       "matchStrings": [
         "pipx? install (?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+      ]
+    },
+    {
+      "fileMatch": [
+        "Dockerfile"
+      ],
+      "matchStrings": [
+        "renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\sENV [^\\s]+_VERSION=(?<currentValue>.+)\\s"
       ]
     }
   ]
