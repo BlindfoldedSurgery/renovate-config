@@ -54,7 +54,7 @@
       "datasourceTemplate": "pypi",
       "depNameTemplate": "poetry",
       "matchStrings": [
-        "poetry-version: (?<currentValue>.+)\\s"
+        "renovate: poetry\\s+version: (?<currentValue>.+)\\s"
       ]
     }
   ]
