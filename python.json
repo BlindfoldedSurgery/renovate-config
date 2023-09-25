@@ -45,17 +45,5 @@
       ],
       "automerge": true
     }
-  ],
-  "regexManagers": [
-    {
-      "fileMatch": [
-        "^.github/workflows/.+\\.ya?ml$"
-      ],
-      "datasourceTemplate": "pypi",
-      "depNameTemplate": "poetry",
-      "matchStrings": [
-        "renovate: poetry\\s+version: (?<currentValue>.+)\\s"
-      ]
-    }
   ]
 }
