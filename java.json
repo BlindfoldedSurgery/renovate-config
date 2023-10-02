@@ -47,7 +47,7 @@
       "matchDatasources": [
         "docker"
       ],
-      "matchCurrentVersion": "17",
+      "matchCurrentVersion": "21",
       "enabled": false
     },
     {
@@ -58,7 +58,7 @@
       "matchDatasources": [
         "docker"
       ],
-      "allowedVersions": "<=20"
+      "allowedVersions": "<=21"
     }
   ]
 }
