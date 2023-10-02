@@ -91,6 +91,16 @@
     },
     {
       "fileMatch": [
+        "Dockerfile"
+      ],
+      "matchStrings": [
+        "renovate: type=git-digest repo=(?<packageName>.+?)\\sENV [^\\s]+_VERSION=(?<currentDigest>.+)\\s"
+      ],
+      "currentValueTemplate": "main",
+      "datasourceTemplate": "git-refs"
+    },
+    {
+      "fileMatch": [
         "values.yaml"
       ],
       "matchStrings": [
