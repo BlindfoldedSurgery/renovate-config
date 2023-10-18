@@ -97,7 +97,7 @@
         "Dockerfile"
       ],
       "matchStrings": [
-        "renovate: type=git-digest repo=(?<packageName>.+?/(?<depName>.+?))\\sENV [A-Z_]+_VERSION=(?<currentDigest>.+)"
+        "renovate: type=git-digest repo=(?<packageName>.+/(?<depName>[^/]+))\\sENV [A-Z_]+_VERSION=(?<currentDigest>.+)"
       ],
       "currentValueTemplate": "main",
       "datasourceTemplate": "git-refs"
