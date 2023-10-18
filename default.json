@@ -108,7 +108,7 @@
         "values.yaml"
       ],
       "matchStrings": [
-        "renovate: datasource=(?<datasource>.+?)\\s.+?: (?<packageName>[^:]+):(?<currentValue>.+)\\s"
+        "renovate: datasource=(?<datasource>.+?)\\s.+?: (?<depName>[^:]+):(?<currentValue>.+)\\s"
       ]
     }
   ]
