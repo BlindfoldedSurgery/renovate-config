@@ -70,8 +70,9 @@
       "allowedVersions": "<= 15"
     }
   ],
-  "regexManagers": [
+  "customManagers": [
     {
+      "customType": "regex",
       "datasourceTemplate": "pypi",
       "fileMatch": [
         "^\\.github/workflows/.+\\.ya?ml$",
@@ -82,6 +83,7 @@
       ]
     },
     {
+      "customType": "regex",
       "fileMatch": [
         "Dockerfile"
       ],
@@ -90,6 +92,7 @@
       ]
     },
     {
+      "customType": "regex",
       "fileMatch": [
         "Dockerfile"
       ],
@@ -100,6 +103,7 @@
       "datasourceTemplate": "git-refs"
     },
     {
+      "customType": "regex",
       "fileMatch": [
         "values.yaml"
       ],
