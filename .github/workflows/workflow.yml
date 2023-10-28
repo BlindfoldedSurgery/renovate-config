@@ -13,7 +13,7 @@ jobs:
       matrix:
         configuration-file: [ "default.json", "java.json", "pub.json", "python.json" ]
     steps:
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 'lts/Iron'
       - name: Install Renovate
