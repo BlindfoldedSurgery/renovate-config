@@ -1,0 +1,26 @@
+on:
+  workflow_call:
+    inputs:
+      allow-failure:
+        type: boolean
+        required: false
+        default: false
+      configuration-file:
+        type: string
+        required: false
+        default: "renovate.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ inputs.allow-failure }}
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/Iron'
+      - name: Install Renovate
+        run: npm install -g renovate
+      - uses: actions/checkout@v4
+      - run: renovate-config-validator --strict
+        env:
+          RENOVATE_CONFIG_FILE: ${{ inputs.configuration-file }}

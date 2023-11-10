@@ -7,20 +7,11 @@ on:
   schedule:
     - cron: "*/12 */4 * * *"
 
-
 jobs:
   validate:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
         configuration-file: [ "default.json", "java.json", "pub.json", "python.json" ]
-    steps:
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/Iron'
-      - name: Install Renovate
-        run: npm install -g renovate
-      - uses: actions/checkout@v4
-      - run: renovate-config-validator --strict
-        env:
-          RENOVATE_CONFIG_FILE: ${{ matrix.configuration-file }}
+    uses: ./.github/workflows/validate.yml
+    with:
+      configuration-file: ${{ matrix.configuration-file }}
