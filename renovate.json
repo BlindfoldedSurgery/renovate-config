@@ -2,5 +2,31 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>BlindfoldedSurgery/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "matchCategories": [
+        "node"
+      ],
+      "matchPackageNames": [
+        "renovate"
+      ],
+      "schedule": [
+        "on friday"
+      ]
+    },
+    {
+      "matchCategories": [
+        "node"
+      ],
+      "matchPackageNames": [
+        "renovate"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    }
   ]
 }
