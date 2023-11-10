@@ -1,4 +1,4 @@
-FROM node:20-bookworm-slim
+FROM node:21-bookworm-slim
 
 # renovate: datasource=npm depName=renovate
 ENV RENOVATE_VERSION=37.54.3
