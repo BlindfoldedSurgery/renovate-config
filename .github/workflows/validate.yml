@@ -13,13 +13,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    container: ghcr.io/blindfoldedsurgery/renovate-validator:latest
     continue-on-error: ${{ inputs.allow-failure }}
     steps:
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/Iron'
-      - name: Install Renovate
-        run: npm install -g renovate
       - uses: actions/checkout@v4
       - run: renovate-config-validator --strict
         env:
