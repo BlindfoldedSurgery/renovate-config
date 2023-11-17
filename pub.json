@@ -67,15 +67,6 @@
         "patch"
       ],
       "automerge": true
-    },
-    {
-      "matchManagers": [
-        "asdf"
-      ],
-      "matchDepNames": [
-        "flutter"
-      ],
-      "allowedVersions": "/^.+-stable$/"
     }
   ]
 }
