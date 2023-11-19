@@ -96,9 +96,8 @@
       "fileMatch": [
         "^\\.github/workflows/.+\\.ya?ml$"
       ],
-      "datasourceTemplate": "github-releases",
+      "datasourceTemplate": "docker",
       "depNameTemplate": "python",
-      "packageNameTemplate": "containerbase/python-prebuild",
       "matchStrings": [
         "python-version: ['\"]?(?<currentValue>.+?)['\"]?\\s"
       ]
