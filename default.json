@@ -94,6 +94,17 @@
     {
       "customType": "regex",
       "fileMatch": [
+        "^\\.github/workflows/.+\\.ya?ml$"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "python",
+      "matchStrings": [
+        "python-version: ['\"]?(?<currentValue>.+?)['\"]?\\s"
+      ]
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
         "Dockerfile"
       ],
       "matchStrings": [
