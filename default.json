@@ -98,6 +98,7 @@
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "python",
+      "packageNameTemplate": "containerbase/python-prebuild",
       "matchStrings": [
         "python-version: ['\"]?(?<currentValue>.+?)['\"]?\\s"
       ]
