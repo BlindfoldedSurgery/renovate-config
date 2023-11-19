@@ -85,10 +85,19 @@
     {
       "customType": "regex",
       "fileMatch": [
+        "^\\.github/workflows/.+\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)\\s[^:]+: ['\"]?(?<currentValue>.+?)['\"]?\\s"
+      ]
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
         "Dockerfile"
       ],
       "matchStrings": [
-        "renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\sENV [^\\s]+_VERSION=(?<currentValue>.+)\\s"
+        "renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)\\sENV [^\\s]+_VERSION=(?<currentValue>.+)\\s"
       ]
     },
     {
