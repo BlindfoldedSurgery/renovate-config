@@ -105,6 +105,41 @@
     {
       "customType": "regex",
       "fileMatch": [
+        "Dockerfile",
+        "Containerfile"
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "python",
+      "matchStrings": [
+        "FROM ghcr.io/blindfoldedsurgery/poetry:\\d+.\\d+.\\d+-[a-z]+-(?<currentValue>.+?)-[a-z]+\\s"
+      ]
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^\\.github/workflows/.+\\.ya?ml$"
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "debian",
+      "matchStrings": [
+        "debian-version: ['\"]?(?<currentValue>.+?)['\"]?\\s"
+      ]
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "Dockerfile",
+        "Containerfile"
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "debian",
+      "matchStrings": [
+        "FROM ghcr.io/blindfoldedsurgery/poetry:\\d+.\\d+.\\d+-[a-z]+-[^\\-]+-(?<currentValue>[a-z]+)\\s"
+      ]
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
         "Dockerfile"
       ],
       "matchStrings": [
