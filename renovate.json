@@ -8,6 +8,10 @@
       "matchDepNames": [
         "renovate"
       ],
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
       "schedule": [
         "on friday"
       ]
