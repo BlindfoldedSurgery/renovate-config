@@ -68,6 +68,15 @@
         "postgres"
       ],
       "allowedVersions": "<= 15"
+    },
+    {
+      "matchDepNames": [
+        "helmfile"
+      ],
+      "matchPackagePrefixes": [
+        "ghcr.io/helmfile/helmfile"
+      ],
+      "groupName": "Helmfile"
     }
   ],
   "customManagers": [
