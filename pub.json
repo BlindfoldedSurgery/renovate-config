@@ -69,10 +69,13 @@
       "automerge": true
     },
     {
+      "matchManagers": [
+        "asdf"
+      ],
       "matchDepNames": [
         "dart"
       ],
-      "allowedVersions": "!/45692/"
+      "allowedVersions": "!/\\d\\d\\d\\d\\d/"
     }
   ]
 }
