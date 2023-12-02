@@ -67,6 +67,12 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchDepNames": [
+        "dart"
+      ],
+      "allowedVersions": "!/45692/"
     }
   ]
 }
