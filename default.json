@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    ":enablePreCommit",
     "github>blindfoldedsurgery/renovate-config:pub",
     "github>blindfoldedsurgery/renovate-config:java",
     "github>blindfoldedsurgery/renovate-config:python"
