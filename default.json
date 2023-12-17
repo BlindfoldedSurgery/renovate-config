@@ -64,6 +64,16 @@
       "groupName": "GitHub Actions by Docker"
     },
     {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "actions/upload-artifact",
+        "actions/download-artifact"
+      ],
+      "groupName": "artifact actions"
+    },
+    {
       "matchDepNames": [
         "postgres"
       ],
