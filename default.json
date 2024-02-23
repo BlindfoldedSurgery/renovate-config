@@ -88,6 +88,17 @@
         "ghcr.io/helmfile/helmfile"
       ],
       "groupName": "Helmfile"
+    },
+    {
+      "matchDepNames": [
+        "commitizen",
+        "commitizen-tools/commitizen"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ],
   "customManagers": [
