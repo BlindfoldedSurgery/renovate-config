@@ -7,6 +7,7 @@
     "github>blindfoldedsurgery/renovate-config:java",
     "github>blindfoldedsurgery/renovate-config:python"
   ],
+  "enabled": false,
   "rangeStrategy": "replace",
   "prHourlyLimit": 0,
   "automergeStrategy": "rebase",
