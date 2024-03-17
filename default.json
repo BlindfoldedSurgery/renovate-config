@@ -175,7 +175,7 @@
         "Dockerfile"
       ],
       "matchStrings": [
-        "renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)\\sENV [^\\s]+_VERSION=(?<currentValue>.+)\\s"
+        "renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)\\s(ENV|ARG) [^\\s]+_VERSION=(?<currentValue>.+)\\s"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "Dockerfile"
       ],
       "matchStrings": [
-        "renovate: type=git-digest repo=(?<packageName>.+/(?<depName>[^/]+/[^/]+))\\sENV [A-Z_]+_VERSION=(?<currentDigest>.+)"
+        "renovate: type=git-digest repo=(?<packageName>.+/(?<depName>[^/]+/[^/]+))\\s(ENV|ARG) [A-Z_]+_VERSION=(?<currentDigest>.+)"
       ],
       "currentValueTemplate": "main",
       "datasourceTemplate": "git-refs"
