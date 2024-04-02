@@ -99,6 +99,19 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchCategories": [
+        "terraform"
+      ],
+      "matchDepNames": [
+        "github.com/BlindfoldedSurgery/terraform-repo-module",
+        "github"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "GitHub"
     }
   ],
   "customManagers": [
