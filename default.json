@@ -8,6 +8,7 @@
     "github>blindfoldedsurgery/renovate-config:python"
   ],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "osvVulnerabilityAlerts": true,
   "rangeStrategy": "replace",
   "prHourlyLimit": 0,
   "automergeStrategy": "rebase",
