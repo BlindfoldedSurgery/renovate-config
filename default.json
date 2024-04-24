@@ -114,6 +114,19 @@
         "major"
       ],
       "groupName": "GitHub"
+    },
+    {
+      "matchCategories": [
+        "terraform"
+      ],
+      "matchDepNames": [
+        "google"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ],
   "customManagers": [
