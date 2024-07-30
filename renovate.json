@@ -3,6 +3,8 @@
   "extends": [
     "local>BlindfoldedSurgery/renovate-config"
   ],
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
   "packageRules": [
     {
       "matchDepNames": [
