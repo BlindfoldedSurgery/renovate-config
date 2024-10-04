@@ -1,6 +1,6 @@
 FROM node:20-bookworm-slim
 
 # renovate: datasource=npm depName=renovate
-ENV RENOVATE_VERSION=38.109.0
+ENV RENOVATE_VERSION=38.109.1
 
 RUN npm install -g renovate@${RENOVATE_VERSION}
