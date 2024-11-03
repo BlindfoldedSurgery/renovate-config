@@ -5,7 +5,8 @@
     ":enablePreCommit",
     "github>blindfoldedsurgery/renovate-config:pub",
     "github>blindfoldedsurgery/renovate-config:java",
-    "github>blindfoldedsurgery/renovate-config:python"
+    "github>blindfoldedsurgery/renovate-config:python",
+    "github>blindfoldedsurgery/renovate-config:terraform"
   ],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
   "osvVulnerabilityAlerts": true,

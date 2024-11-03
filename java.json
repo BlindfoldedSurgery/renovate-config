@@ -1,8 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "ignorePresets": [
-    "workarounds:javaLTSVersions"
-  ],
   "packageRules": [
     {
       "matchCategories": [
@@ -38,27 +35,6 @@
         "patch"
       ],
       "automerge": true
-    },
-    {
-      "description": "Only allow LTS Java versions (next will be 21)",
-      "matchDepNames": [
-        "eclipse-temurin"
-      ],
-      "matchDatasources": [
-        "docker"
-      ],
-      "matchCurrentVersion": "21",
-      "enabled": false
-    },
-    {
-      "description": "Only allow stable Java versions",
-      "matchDepNames": [
-        "eclipse-temurin"
-      ],
-      "matchDatasources": [
-        "docker"
-      ],
-      "allowedVersions": "<=21"
     }
   ]
 }
