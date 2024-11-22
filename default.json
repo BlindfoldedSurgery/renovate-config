@@ -45,6 +45,7 @@
       ],
       "matchManagers": [
         "asdf",
+        "mise",
         "github-actions",
         "terraform"
       ]

@@ -47,7 +47,8 @@
       "groupName": "Dart",
       "matchManagers": [
         "dockerfile",
-        "asdf"
+        "asdf",
+        "mise"
       ],
       "matchDepNames": [
         "dart"
@@ -57,7 +58,8 @@
     {
       "matchManagers": [
         "dockerfile",
-        "asdf"
+        "asdf",
+        "mise"
       ],
       "matchDepNames": [
         "dart"
@@ -70,7 +72,8 @@
     },
     {
       "matchManagers": [
-        "asdf"
+        "asdf",
+        "mise"
       ],
       "matchDepNames": [
         "dart"
