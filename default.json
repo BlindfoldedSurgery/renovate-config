@@ -94,14 +94,13 @@
       "groupName": "Helmfile"
     },
     {
+      "groupName": "commitizen",
       "matchDepNames": [
         "commitizen",
         "commitizen-tools/commitizen"
       ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "semanticCommitType": "chore",
+      "rangeStrategy": "pin",
       "automerge": true
     },
     {

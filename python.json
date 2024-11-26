@@ -76,16 +76,6 @@
         "python-telegram-bot-raw"
       ],
       "replacementName": "python-telegram-bot"
-    },
-    {
-      "groupName": "commitizen",
-      "matchDepNames": [
-        "commitizen",
-        "commitizen-tools/commitizen"
-      ],
-      "semanticCommitType": "chore",
-      "rangeStrategy": "pin",
-      "automerge": true
     }
   ]
 }
