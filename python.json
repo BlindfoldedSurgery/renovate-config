@@ -83,6 +83,7 @@
         "commitizen",
         "commitizen-tools/commitizen"
       ],
+      "semanticCommitType": "chore",
       "automerge": true
     }
   ]
