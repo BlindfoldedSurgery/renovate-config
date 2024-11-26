@@ -84,6 +84,7 @@
         "commitizen-tools/commitizen"
       ],
       "semanticCommitType": "chore",
+      "rangeStrategy": "pin",
       "automerge": true
     }
   ]
