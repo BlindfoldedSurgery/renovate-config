@@ -76,6 +76,14 @@
         "python-telegram-bot-raw"
       ],
       "replacementName": "python-telegram-bot"
+    },
+    {
+      "groupName": "commitizen",
+      "matchDepNames": [
+        "commitizen",
+        "commitizen-tools/commitizen"
+      ],
+      "automerge": true
     }
   ]
 }
