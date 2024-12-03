@@ -12,7 +12,7 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container: ghcr.io/blindfoldedsurgery/renovate-validator:latest
     continue-on-error: ${{ inputs.allow-failure }}
     steps:
