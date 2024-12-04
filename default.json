@@ -139,7 +139,7 @@
         "Dockerfile"
       ],
       "matchStrings": [
-        "pipx? install (?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+        "pipx? install '?(?<depName>[_\\-a-zA-Z]+)==(?<currentValue>\\d+\\.\\d+\\.\\d+)'?"
       ]
     },
     {
