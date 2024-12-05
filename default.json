@@ -6,7 +6,8 @@
     "github>blindfoldedsurgery/renovate-config:pub",
     "github>blindfoldedsurgery/renovate-config:java",
     "github>blindfoldedsurgery/renovate-config:python",
-    "github>blindfoldedsurgery/renovate-config:terraform"
+    "github>blindfoldedsurgery/renovate-config:terraform",
+    "customManagers:githubActionsVersions"
   ],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
   "osvVulnerabilityAlerts": true,
