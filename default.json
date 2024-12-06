@@ -83,7 +83,7 @@
       "matchManagers": [
         "github-actions"
       ],
-      "matchDepNames": [
+      "matchPackageNames": [
         "BlindfoldedSurgery/renovate-config/.github/workflows/validate.yml"
       ],
       "replacementName": "BlindfoldedSurgery/actions-meta/.github/workflows/required.yml",
