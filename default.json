@@ -80,6 +80,16 @@
       "groupName": "artifact actions"
     },
     {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDepNames": [
+        "BlindfoldedSurgery/renovate-config/.github/workflows/validate.yml"
+      ],
+      "replacementName": "BlindfoldedSurgery/actions-meta/.github/workflows/required.yml",
+      "replacementVersion": "v1"
+    },
+    {
       "matchDepNames": [
         "postgres"
       ],
