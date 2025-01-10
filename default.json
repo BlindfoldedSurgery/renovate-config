@@ -16,6 +16,7 @@
   "prHourlyLimit": 0,
   "automergeStrategy": "rebase",
   "separateMinorPatch": true,
+  "configMigration": true,
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [
