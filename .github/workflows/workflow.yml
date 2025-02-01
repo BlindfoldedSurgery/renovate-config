@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-renovate-image:
-    uses: BlindfoldedSurgery/actions-container/.github/workflows/build-image-docker.yml@v6
+    uses: BlindfoldedSurgery/actions-container/.github/workflows/build-image-docker.yml@v7
     if: github.event_name != 'schedule'
     with:
       image-name: renovate-validator
@@ -28,7 +28,7 @@ jobs:
     if: false && github.ref_name == github.event.repository.default_branch
     concurrency: cleanup
     needs: build-renovate-image
-    uses: BlindfoldedSurgery/actions-container/.github/workflows/clean.yml@v6
+    uses: BlindfoldedSurgery/actions-container/.github/workflows/clean.yml@v7
     with:
       image-name: renovate-validator
       min-versions-to-keep: 1
