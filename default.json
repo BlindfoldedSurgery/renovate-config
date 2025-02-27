@@ -83,6 +83,13 @@
     },
     {
       "matchDepNames": [
+        "uv",
+        "ghcr.io/astral-sh/uv"
+      ],
+      "groupName": "uv"
+    },
+    {
+      "matchDepNames": [
         "postgres"
       ],
       "allowedVersions": "<= 15"
