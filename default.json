@@ -207,7 +207,7 @@
       "matchStrings": [
         "FROM ghcr.io/blindfoldedsurgery/poetry:\\d+.\\d+.\\d+-[a-z]+-[^\\-]+-(?<currentValue>[a-z]+)\\s"
       ]
-    }
+    },
     {
       "customType": "regex",
       "fileMatch": [
