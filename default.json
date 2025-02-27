@@ -7,7 +7,7 @@
     "github>blindfoldedsurgery/renovate-config:java",
     "github>blindfoldedsurgery/renovate-config:python",
     "github>blindfoldedsurgery/renovate-config:terraform",
-    "customManagers:dockerfileVersions¶",
+    "customManagers:dockerfileVersions",
     "customManagers:githubActionsVersions",
     "customManagers:helmChartYamlAppVersions"
   ],
