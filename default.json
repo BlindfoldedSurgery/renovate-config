@@ -7,6 +7,7 @@
     "github>blindfoldedsurgery/renovate-config:java",
     "github>blindfoldedsurgery/renovate-config:python",
     "github>blindfoldedsurgery/renovate-config:terraform",
+    "customManagers:dockerfileVersions¶",
     "customManagers:githubActionsVersions",
     "customManagers:helmChartYamlAppVersions"
   ],
@@ -206,16 +207,7 @@
       "matchStrings": [
         "FROM ghcr.io/blindfoldedsurgery/poetry:\\d+.\\d+.\\d+-[a-z]+-[^\\-]+-(?<currentValue>[a-z]+)\\s"
       ]
-    },
-    {
-      "customType": "regex",
-      "fileMatch": [
-        "Dockerfile"
-      ],
-      "matchStrings": [
-        "renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)\\s(ENV|ARG) [^\\s]+_VERSION=(?<currentValue>.+)\\s"
-      ]
-    },
+    }
     {
       "customType": "regex",
       "fileMatch": [
