@@ -27,6 +27,8 @@
         "python"
       ],
       "matchDepNames": [
+        "openai",
+        "poetry",
         "sentry-sdk"
       ],
       "matchUpdateTypes": [
@@ -40,8 +42,7 @@
         "python"
       ],
       "matchDepNames": [
-        "certifi",
-        "poetry"
+        "certifi"
       ],
       "automerge": true
     },
