@@ -77,6 +77,17 @@
         "python-telegram-bot-raw"
       ],
       "replacementName": "python-telegram-bot"
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "matchDepNames": [
+        "cloudflare"
+      ],
+      "separateMajorMinor": true,
+      "separateMinorPatch": true,
+      "separateMultipleMinor": true
     }
   ]
 }
