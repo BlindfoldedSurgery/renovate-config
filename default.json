@@ -87,7 +87,8 @@
         "uv",
         "ghcr.io/astral-sh/uv"
       ],
-      "groupName": "uv"
+      "groupName": "uv",
+      "allowedVersions": "<0.7.16"
     },
     {
       "matchDepNames": [
