@@ -25,6 +25,7 @@
     ],
     "automerge": true
   },
+  "rollbackPrs": true,
   "packageRules": [
     {
       "matchUpdateTypes": [
