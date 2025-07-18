@@ -86,7 +86,8 @@
     {
       "matchDepNames": [
         "uv",
-        "ghcr.io/astral-sh/uv"
+        "ghcr.io/astral-sh/uv",
+        "uv_build"
       ],
       "groupName": "uv"
     },
