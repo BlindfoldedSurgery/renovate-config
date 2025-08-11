@@ -16,7 +16,7 @@ jobs:
     container: ghcr.io/blindfoldedsurgery/renovate-validator:latest
     continue-on-error: ${{ inputs.allow-failure }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: renovate-config-validator --strict
         env:
           RENOVATE_CONFIG_FILE: ${{ inputs.configuration-file }}
