@@ -7,10 +7,16 @@ on:
   schedule:
     - cron: "*/12 */4 * * *"
 
+permissions:
+  contents: read
+
 jobs:
   build-renovate-image:
-    uses: BlindfoldedSurgery/actions-container/.github/workflows/build-image-docker.yml@v7
+    uses: BlindfoldedSurgery/actions-container/.github/workflows/build-image-buildah.yml@v7
     if: github.event_name != 'schedule'
+    permissions:
+      contents: read
+      packages: write
     with:
       image-name: renovate-validator
       push-image: ${{ github.ref_name == github.event.repository.default_branch }}
@@ -29,6 +35,8 @@ jobs:
     concurrency: cleanup
     needs: build-renovate-image
     uses: BlindfoldedSurgery/actions-container/.github/workflows/clean.yml@v7
+    permissions:
+      packages: write
     with:
       image-name: renovate-validator
       min-versions-to-keep: 1

@@ -1,6 +1,6 @@
-FROM node:22-bookworm-slim
+FROM docker.io/oven/bun:1.2-alpine
 
 # renovate: datasource=npm depName=renovate
 ENV RENOVATE_VERSION=41.82.10
 
-RUN npm install -g renovate@${RENOVATE_VERSION}
+RUN bun install -g renovate@${RENOVATE_VERSION}
