@@ -85,6 +85,14 @@
     },
     {
       "matchDepNames": [
+        "bun",
+        "oven/bun",
+        "docker.io/oven/bun"
+      ],
+      "groupName": "bun"
+    },
+    {
+      "matchDepNames": [
         "uv",
         "ghcr.io/astral-sh/uv",
         "uv_build"
