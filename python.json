@@ -105,8 +105,8 @@
       ],
       "matchDepNames": [
         "bs-config",
-        "bs-nats-updater"
-        "bs-state",
+        "bs-nats-updater",
+        "bs-state"
       ],
       "matchUpdateTypes": [
         "minor",
