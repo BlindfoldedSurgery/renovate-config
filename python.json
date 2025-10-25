@@ -98,6 +98,21 @@
       "separateMajorMinor": true,
       "separateMinorPatch": true,
       "separateMultipleMinor": true
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "matchDepNames": [
+        "bs-config",
+        "bs-nats-updater"
+        "bs-state",
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ]
 }
