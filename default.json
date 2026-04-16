@@ -141,7 +141,7 @@
     {
       "matchCategories": ["ci"],
       "matchDepNames": [
-        "uv/setup-uv",
+        "astral-sh/setup-uv",
         "jdx/mise-action",
         "docker/login-action"
       ],
