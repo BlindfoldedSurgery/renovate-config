@@ -133,6 +133,13 @@
       ],
       "matchUpdateTypes": ["pinDigest"],
       "enabled": false
+    },
+    {
+      "matchCategories": ["ci"],
+      "matchDepNames": [
+        "actions/checkout"
+      ],
+      "allowedVersions": "6.0.2"
     }
   ],
   "customManagers": [
