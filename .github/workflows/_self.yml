@@ -25,7 +25,7 @@ jobs:
   validate:
     strategy:
       matrix:
-        configuration-file: [ "default.json", "java.json", "pub.json", "python.json" ]
+        configuration-file: [ "default.json", "pub.json", "python.json" ]
     uses: ./.github/workflows/validate.yml
     with:
       configuration-file: ${{ matrix.configuration-file }}
