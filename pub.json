@@ -65,7 +65,6 @@
         "dart"
       ],
       "matchUpdateTypes": [
-        "minor",
         "patch"
       ],
       "automerge": true

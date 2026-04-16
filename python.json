@@ -37,21 +37,6 @@
         "python"
       ],
       "matchDepNames": [
-        "openai",
-        "poetry",
-        "sentry-sdk"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    },
-    {
-      "matchCategories": [
-        "python"
-      ],
-      "matchDepNames": [
         "certifi"
       ],
       "automerge": true
@@ -78,15 +63,6 @@
         "httpx"
       ],
       "groupName": "httpx and python-telegram-bot"
-    },
-    {
-      "matchCategories": [
-        "python"
-      ],
-      "matchDepNames": [
-        "python-telegram-bot-raw"
-      ],
-      "replacementName": "python-telegram-bot"
     },
     {
       "matchCategories": [

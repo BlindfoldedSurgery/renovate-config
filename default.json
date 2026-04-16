@@ -7,9 +7,7 @@
     ":semanticCommits",
     "abandonments:recommended",
     "github>blindfoldedsurgery/renovate-config:pub",
-    "github>blindfoldedsurgery/renovate-config:java",
     "github>blindfoldedsurgery/renovate-config:python",
-    "github>blindfoldedsurgery/renovate-config:terraform",
     "customManagers:dockerfileVersions",
     "customManagers:githubActionsVersions",
     "customManagers:helmChartYamlAppVersions"
@@ -34,9 +32,6 @@
       "matchUpdateTypes": [
         "patch"
       ],
-      "automerge": true
-    },
-    {
       "matchDepTypes": [
         "dev-dependencies",
         "dev_dependencies",
@@ -57,15 +52,6 @@
         "github-actions",
         "terraform"
       ]
-    },
-    {
-      "matchCategories": [
-        "docker"
-      ],
-      "matchDepNames": [
-        "swaggerapi/swagger-ui"
-      ],
-      "automerge": true
     },
     {
       "matchManagers": [
@@ -104,12 +90,6 @@
     },
     {
       "matchDepNames": [
-        "postgres"
-      ],
-      "allowedVersions": "<= 15"
-    },
-    {
-      "matchDepNames": [
         "helmfile"
       ],
       "matchPackagePrefixes": [
@@ -123,9 +103,8 @@
         "commitizen",
         "commitizen-tools/commitizen"
       ],
-      "semanticCommitType": "chore",
-      "rangeStrategy": "pin",
-      "automerge": true
+      "semanticCommitType": "ci",
+      "rangeStrategy": "pin"
     },
     {
       "matchCategories": [
@@ -139,19 +118,6 @@
         "major"
       ],
       "groupName": "GitHub"
-    },
-    {
-      "matchCategories": [
-        "terraform"
-      ],
-      "matchDepNames": [
-        "google"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
     }
   ],
   "customManagers": [
