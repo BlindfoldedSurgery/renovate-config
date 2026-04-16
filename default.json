@@ -131,8 +131,18 @@
         "BlindfoldedSurgery/actions-*",
         "BjoernPetersen/actions-*"
       ],
-      "matchUpdateTypes": ["pinDigest"],
-      "enabled": false
+      "description": "Don't pin first-party actions",
+      "rangeStrategy": "replace",
+      "pinDigests": "false"
+    },
+    {
+      "matchCategories": ["ci"],
+      "matchDepNames": [
+        "uv/setup-uv",
+        "jdx/mise-action"
+      ],
+      "description": "Don't pin digests for actions with immutable releases",
+      "pinDigests": "false"
     },
     {
       "matchCategories": ["ci"],
