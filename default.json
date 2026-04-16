@@ -124,7 +124,8 @@
       "matchPackageNames": [
         "dflook/terraform-*"
       ],
-      "groupName": "Terraform Actions"
+      "groupName": "Terraform Actions",
+      "pinDigests": "false"
     },
     {
       "matchCategories": ["ci"],
