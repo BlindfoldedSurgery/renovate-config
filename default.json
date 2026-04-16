@@ -141,7 +141,8 @@
       "matchCategories": ["ci"],
       "matchDepNames": [
         "uv/setup-uv",
-        "jdx/mise-action"
+        "jdx/mise-action",
+        "docker/login-action"
       ],
       "description": "Don't pin digests for actions with immutable releases",
       "pinDigests": "false"
