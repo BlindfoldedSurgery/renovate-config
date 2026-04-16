@@ -118,6 +118,12 @@
         "major"
       ],
       "groupName": "GitHub"
+    },
+    {
+      "matchPackageNames": [
+        "dflook/terraform-*"
+      ],
+      "groupName": "Terraform Actions"
     }
   ],
   "customManagers": [
