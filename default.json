@@ -124,6 +124,15 @@
         "dflook/terraform-*"
       ],
       "groupName": "Terraform Actions"
+    },
+    {
+      "matchCategories": ["ci"],
+      "matchDepNames": [
+        "BlindfoldedSurgery/actions-*",
+        "BjoernPetersen/actions-*"
+      ],
+      "matchUpdateTypes": ["pinDigest"],
+      "enabled": false
     }
   ],
   "customManagers": [
