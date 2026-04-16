@@ -10,8 +10,7 @@
     "github>blindfoldedsurgery/renovate-config:python",
     "customManagers:dockerfileVersions",
     "customManagers:githubActionsVersions",
-    "customManagers:helmChartYamlAppVersions",
-    "helpers:pinGitHubActionDigests"
+    "customManagers:helmChartYamlAppVersions"
   ],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
   "osvVulnerabilityAlerts": true,
