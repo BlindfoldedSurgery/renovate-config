@@ -1,7 +1,7 @@
 FROM docker.io/denoland/deno:2.7.13
 
 # renovate: datasource=npm depName=renovate
-ENV RENOVATE_VERSION=43.141.5
+ENV RENOVATE_VERSION=43.141.6
 
 RUN deno install -g \
     --allow-env \
