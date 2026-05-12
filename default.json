@@ -160,6 +160,15 @@
         "actions/checkout"
       ],
       "allowedVersions": "6.0.2"
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "matchDepNames": [
+        "python"
+      ],
+      "rangeStrategy": "replace"
     }
   ],
   "customManagers": [
@@ -193,15 +202,6 @@
       "matchStrings": [
         "python-version: ['\"]?(?<currentValue>.+?)['\"]?\\s"
       ]
-    },
-    {
-      "matchCategories": [
-        "python"
-      ],
-      "matchDepNames": [
-        "python"
-      ],
-      "rangeStrategy": "replace"
     },
     {
       "customType": "regex",
