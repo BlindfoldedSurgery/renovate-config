@@ -128,7 +128,9 @@
       "pinDigests": "false"
     },
     {
-      "matchCategories": ["ci"],
+      "matchCategories": [
+        "ci"
+      ],
       "matchDepNames": [
         "BlindfoldedSurgery/renovate-config",
         "BlindfoldedSurgery/actions-*",
@@ -139,7 +141,9 @@
       "pinDigests": "false"
     },
     {
-      "matchCategories": ["ci"],
+      "matchCategories": [
+        "ci"
+      ],
       "matchDepNames": [
         "astral-sh/setup-uv",
         "jdx/mise-action",
@@ -149,7 +153,9 @@
       "pinDigests": "false"
     },
     {
-      "matchCategories": ["ci"],
+      "matchCategories": [
+        "ci"
+      ],
       "matchDepNames": [
         "actions/checkout"
       ],
@@ -187,6 +193,15 @@
       "matchStrings": [
         "python-version: ['\"]?(?<currentValue>.+?)['\"]?\\s"
       ]
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "matchDepNames": [
+        "python"
+      ],
+      "rangeStrategy": "replace"
     },
     {
       "customType": "regex",
