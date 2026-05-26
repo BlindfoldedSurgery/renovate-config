@@ -89,6 +89,15 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "matchDepNames": [
+        "mistralai"
+      ],
+      "allowedVersions": "2.4.5"
     }
   ]
 }
