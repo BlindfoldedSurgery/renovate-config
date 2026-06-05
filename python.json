@@ -99,7 +99,7 @@
         "httpx"
       ],
       "replacementName": "httpx2",
-      "replacementVersion": "2.3.0"
+      "replacementVersion": "==2.3.0"
     }
   ]
 }
