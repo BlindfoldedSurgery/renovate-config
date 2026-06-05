@@ -98,7 +98,8 @@
       "matchDepNames": [
         "httpx"
       ],
-      "replacementName": "httpx2"
+      "replacementName": "httpx2",
+      "replacementVersion": "2.3.0"
     }
   ]
 }
