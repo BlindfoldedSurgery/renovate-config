@@ -60,7 +60,8 @@
       "description": "python-telegram-bot uses httpx as well sets tight version constraints.",
       "matchDepNames": [
         "python-telegram-bot",
-        "httpx"
+        "httpx",
+        "httpx2"
       ],
       "groupName": "httpx and python-telegram-bot"
     },
@@ -89,6 +90,15 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchCategories": [
+        "python"
+      ],
+      "matchDepNames": [
+        "httpx"
+      ],
+      "replacementName": "httpx2"
     }
   ]
 }
