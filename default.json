@@ -30,8 +30,8 @@
   "rollbackPrs": true,
   "packageRules": [
     {
-      "matchCategories": [
-        "js"
+      "matchDatasources": [
+        "npm"
       ],
       "minimumReleaseAge": "7 days"
     },
