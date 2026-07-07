@@ -30,6 +30,12 @@
   "rollbackPrs": true,
   "packageRules": [
     {
+      "matchCategories": [
+        "js"
+      ],
+      "minimumReleaseAge": "7 days"
+    },
+    {
       "matchUpdateTypes": [
         "patch"
       ],
