@@ -1,4 +1,4 @@
-FROM docker.io/denoland/deno:2.9.1
+FROM docker.io/denoland/deno:2.9.3
 
 # renovate: datasource=npm depName=renovate
 ENV RENOVATE_VERSION=43.251.3
