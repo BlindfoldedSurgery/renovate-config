@@ -1,11 +1,7 @@
-FROM docker.io/denoland/deno:2.9.7
+FROM docker.io/node:24.21.0
 
 # renovate: datasource=npm depName=renovate
 ENV RENOVATE_VERSION=44.132.2
 
-RUN deno install -g \
-    --allow-env \
-    --allow-read \
-    --allow-sys \
-    --name renovate-config-validator \
-    npm:renovate@${RENOVATE_VERSION}/dist/config-validator.js
+RUN npm install -g "renovate@${RENOVATE_VERSION}" \
+    && npm cache clean --force
