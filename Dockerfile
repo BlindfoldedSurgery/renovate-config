@@ -1,7 +1,7 @@
 FROM docker.io/node:24.22.2
 
 # renovate: datasource=npm depName=renovate
-ENV RENOVATE_VERSION=44.178.5
+ENV RENOVATE_VERSION=44.180.0
 
 RUN npm install -g "renovate@${RENOVATE_VERSION}" \
     && npm cache clean --force
