@@ -1,4 +1,4 @@
-FROM docker.io/node:26.13.0
+FROM docker.io/node:26.13.1
 
 # renovate: datasource=npm depName=renovate
 ENV RENOVATE_VERSION=44.198.3
